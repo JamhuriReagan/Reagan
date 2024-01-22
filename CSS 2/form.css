@@ -1,0 +1,36 @@
+form{
+    background-color: #d78e21;
+    width: 50%;
+    margin: auto;
+    padding-left: 30px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px  chocolate;
+}
+legend {
+    text-align: center;
+    font-size: 30px;
+    font-family: Chilanka;
+    font-weight: bold;
+}
+input[type=text], input[type=email], input[type=password]{
+    width :100%;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background-color: #03fa9a;
+    margin-left: 250px;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: #e80f41;
+}
+body{
+    background-color: gray;
+}
+
+

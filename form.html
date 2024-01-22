@@ -1,0 +1,82 @@
+<<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Student Form</title>
+    <link rel="stylesheet" href="CSS%202/form.css">
+</head>
+<body>
+
+<form action="">
+    <legend> STUDENT INFORMATION</legend>
+    <BR><BR>
+    <label for="fname">firstname :</label>
+    <input type="text" id="fname" placeholder="firstname" required="required">
+
+    <br><br>
+
+    <label for="sname">surname :</label>
+    <input type="text" id="sname" placeholder="surname" required="required">
+
+    <br><br>
+
+    <label for="email">emailaddress :</label>
+    <input type="email" placeholder="abc@gemail.com" id="email" required="required">
+
+    <br><br>
+
+    <label for="pwd"> password :</label>
+    <input type="password" id="pwd" placeholder="type yor password" required="required">
+
+    <br><br>
+
+    <p> choose a programming language</p>
+    <input type="radio" id="python" >
+    <label for="python">python </label><br>
+
+    <input type="radio" id="php" >
+    <label for="php">PHP</label><br>
+
+    <input type="radio" id="java" >
+    <label for="java">Java </label><br>
+
+    <p>choose your favourite game</p>
+    <input type="checkbox" id="football">
+    <label for="football">Football</label><br>
+
+      <input type="checkbox" id="bascketball">
+    <label for="bascketball">bascketball</label><br>
+
+      <input type="checkbox" id="tenis">
+    <label for="tenis">Tenis</label><br><br>
+
+    <label for="course">Select a cource</label>
+    <select name="" id="course">
+        <option value="choose" disabled="disabled">--choose course--</option>
+        <option value="comp">computer science</option>
+        <option value="eng">softwareengineering</option>
+        <option value="it">information techmology</option>
+        <option value="appcomp">appliedcomputer science</option>
+
+    </select>
+    <br><br>
+
+    <label for="file"> Choose a file</label>
+    <input type="file" id="file" required="required">
+    <br><br>
+
+    <label for="yob"> Year of birth</label>
+    <input type="date" id="yob" required="required"><br><br>
+
+    <textarea name="" id="type" cols="30" rows="10"></textarea>
+    <br><br>
+
+    <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
